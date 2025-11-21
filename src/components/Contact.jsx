@@ -104,7 +104,7 @@ const Contact = () => {
                 <div className="mt-12 text-center">
                     <p className="text-[var(--text-secondary)] font-body text-sm">
                         &copy; {new Date().getFullYear()} Taahier Mahammad. All Rights Reserved. <br />
-                        <span className="text-xs opacity-50">Inspired by Valorant. Not affiliated with Riot Games.</span>
+                        <span className="text-xs opacity-50">Building one step of CODE at a TIME. Safe and Secure All the WAY !!</span>
                     </p>
                 </div>
             </div>
