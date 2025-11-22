@@ -22,7 +22,7 @@
 
 :root {
   /* Dark Theme (Default) */
-  --bg-primary: #0F1923;
+  --bg-primary: #000000;
   --text-primary: #ECE8E1;
   --text-secondary: #C1C9D8;
   /* Lighter for better readability */
@@ -43,8 +43,6 @@
 @layer base {
   body {
     @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-body overflow-x-hidden transition-colors duration-300;
-    cursor: none;
-    /* Hide default cursor for custom cursor */
   }
 
   p {

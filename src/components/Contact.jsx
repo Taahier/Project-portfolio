@@ -55,15 +55,15 @@ const Contact = () => {
                                         href={url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex items-center gap-4 p-4 bg-[var(--card-bg)] hover:bg-valorant-red transition-colors duration-300 border-l-2 border-transparent hover:border-white"
+                                        className="group flex items-center gap-4 p-4 transition-colors duration-300 border-l-2 border-transparent hover:border-white bg-valorant-red text-black hover:bg-white [:root[data-theme=light]_&]:bg-[var(--card-bg)] [:root[data-theme=light]_&]:text-[var(--text-primary)] [:root[data-theme=light]_&]:hover:bg-valorant-red [:root[data-theme=light]_&]:hover:text-white"
                                     >
-                                        <div className="p-2 bg-white/10 rounded group-hover:bg-white/20">
-                                            <Icon size={20} className="text-[var(--text-primary)] group-hover:text-white" />
+                                        <div className="p-2 rounded bg-black/20 group-hover:bg-black/10 [:root[data-theme=light]_&]:bg-white/10 [:root[data-theme=light]_&]:group-hover:bg-white/20">
+                                            <Icon size={20} className="text-black group-hover:text-black [:root[data-theme=light]_&]:text-[var(--text-primary)] [:root[data-theme=light]_&]:group-hover:text-white" />
                                         </div>
-                                        <span className="text-[var(--text-primary)] group-hover:text-white font-header uppercase tracking-wider text-lg">
+                                        <span className="font-header uppercase tracking-wider text-lg text-black group-hover:text-black [:root[data-theme=light]_&]:text-[var(--text-primary)] [:root[data-theme=light]_&]:group-hover:text-white">
                                             {platform}
                                         </span>
-                                        <span className="ml-auto text-[var(--text-secondary)] group-hover:text-white font-mono text-xs">
+                                        <span className="ml-auto font-mono text-xs text-black/70 group-hover:text-black/70 [:root[data-theme=light]_&]:text-[var(--text-secondary)] [:root[data-theme=light]_&]:group-hover:text-white">
                       // CONNECT
                                         </span>
                                     </a>

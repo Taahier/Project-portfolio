@@ -6,9 +6,9 @@ import About from './components/About';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Education from './components/Education';
-import CustomCursor from './components/animations/CustomCursor';
 import ScrollReveal from './components/animations/ScrollReveal';
 
 const Home = () => (
@@ -19,6 +19,9 @@ const Home = () => (
     </ScrollReveal>
     <ScrollReveal>
       <Skills />
+    </ScrollReveal>
+    <ScrollReveal>
+      <Certifications />
     </ScrollReveal>
     <ScrollReveal>
       <Projects />
@@ -88,9 +91,6 @@ function App() {
   return (
     <Router>
       <div className="bg-[var(--bg-primary)] min-h-screen transition-colors duration-300">
-        {/* Custom Crosshair Cursor */}
-        <CustomCursor />
-
         {/* <Navbar /> */}
         <CardNav
           logo={logo}
